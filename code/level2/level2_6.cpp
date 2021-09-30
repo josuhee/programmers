@@ -21,6 +21,6 @@ vector<long long> solution(vector<long long> numbers) {
 }
 
 /*
-숫자의 최상위 비트 구하기
+처음으로 0이 나오기 전의 비트를 구하는 방법.
 num + ((num ^ (num + 1)) + 1) / 4
 */
